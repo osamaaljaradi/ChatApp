@@ -1,3 +1,4 @@
+import { BusyService } from './../../core/services/busy-service';
 import { FormsModule } from '@angular/forms';
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { AccountService } from '../../core/services/account-service';
@@ -15,10 +16,11 @@ export class Nav implements OnInit{
   ngOnInit(): void {
     document.documentElement.setAttribute('data-theme',this.selectedTheme())
   }
-    protected accountService = inject(AccountService)
+    protected accountService = inject(AccountService);
+    protected busyService = inject(BusyService);
     protected creds:any ={}
-    private router = inject(Router)
-    private toast = inject(ToastService)
+    private router = inject(Router);
+    private toast = inject(ToastService);
     protected selectedTheme = signal<string>(localStorage.getItem('theme') || 'light');
     protected themes = themes
 
