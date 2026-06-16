@@ -12,7 +12,7 @@ using System.Security.Claims;
 namespace API.Controllers
 {
     [Authorize]
-    public class MembersController(IMemberRepository memberRepository) : BaseAPIController
+    public class MembersController(IMemberRepository memberRepository,IPhotoService photoService) : BaseAPIController
     {
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<Member>>> GetMembers()
@@ -51,6 +51,25 @@ namespace API.Controllers
             memberRepository.Update(member); //optional
             if (await memberRepository.SaveAllAsync()) return NoContent();
             return BadRequest("Failed To Update member");
+        }
+
+        [HttpPost("add-photo")]
+        public async Task<ActionResult<Photo>> AddPhoto([FromForm] IFormFile file)
+        {
+            var member = await memberRepository.GetMemberForUpdate(User.GetMemberId());
+            if (member == null) return BadRequest("Cannot update member");
+            var result = await photoService.UploadPhotoAsync(file);
+            if(result.Error != null) return BadRequest(result.Error.Message);
+            var photo = new Photo
+            {
+                Url = result.SecureUrl.AbsoluteUri,
+                PublicId = result.PublicId,
+                MemberId = User.GetMemberId()
+            };
+
+            member.Photos.Add(photo);
+            if (await memberRepository.SaveAllAsync()) return photo;
+            return BadRequest("Problem adding photo");
         }
     }
 }
