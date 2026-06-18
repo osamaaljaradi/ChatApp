@@ -2,7 +2,7 @@
   {
     "Id": "1",
     "Email": "osama@test.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1995-03-12",
     "DisplayName": "اسامه زيد",
     "Created": "2025-01-10",
@@ -15,7 +15,7 @@
   {
     "Id": "2",
     "Email": "fatima2@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1998-07-21",
     "DisplayName": "فاطمة علي",
     "Created": "2025-02-05",
@@ -28,7 +28,7 @@
   {
     "Id": "3",
     "Email": "khaled3@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1992-11-05",
     "DisplayName": "خالد عبدالله",
     "Created": "2025-01-15",
@@ -41,7 +41,7 @@
   {
     "Id": "4",
     "Email": "noor4@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1999-04-18",
     "DisplayName": "نور أحمد",
     "Created": "2025-03-01",
@@ -54,7 +54,7 @@
   {
     "Id": "5",
     "Email": "saleh5@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1994-06-09",
     "DisplayName": "صالح حسن",
     "Created": "2025-02-12",
@@ -67,7 +67,7 @@
   {
     "Id": "6",
     "Email": "reem6@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1997-01-25",
     "DisplayName": "ريم سعيد",
     "Created": "2025-02-20",
@@ -80,7 +80,7 @@
   {
     "Id": "7",
     "Email": "yasser7@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1991-08-17",
     "DisplayName": "ياسر علي",
     "Created": "2025-01-22",
@@ -93,7 +93,7 @@
   {
     "Id": "8",
     "Email": "huda8@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1996-10-14",
     "DisplayName": "هدى خالد",
     "Created": "2025-03-05",
@@ -106,7 +106,7 @@
   {
     "Id": "9",
     "Email": "omar9@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1993-02-11",
     "DisplayName": "عمر نبيل",
     "Created": "2025-01-30",
@@ -119,7 +119,7 @@
   {
     "Id": "10",
     "Email": "amal10@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "2000-12-03",
     "DisplayName": "أمل محمود",
     "Created": "2025-04-01",
@@ -132,7 +132,7 @@
   {
     "Id": "11",
     "Email": "samir11@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1990-09-20",
     "DisplayName": "سمير أنور",
     "Created": "2025-02-01",
@@ -145,7 +145,7 @@
   {
     "Id": "12",
     "Email": "lina12@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1998-05-29",
     "DisplayName": "لينا فؤاد",
     "Created": "2025-03-10",
@@ -158,7 +158,7 @@
   {
     "Id": "13",
     "Email": "adel13@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1997-04-06",
     "DisplayName": "عادل صالح",
     "Created": "2025-01-08",
@@ -171,7 +171,7 @@
   {
     "Id": "14",
     "Email": "asma14@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1995-08-15",
     "DisplayName": "أسماء عبدالقادر",
     "Created": "2025-04-05",
@@ -184,7 +184,7 @@
   {
     "Id": "15",
     "Email": "hassan15@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1996-01-09",
     "DisplayName": "حسن جمال",
     "Created": "2025-03-15",
@@ -197,7 +197,7 @@
   {
     "Id": "16",
     "Email": "sahar16@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1994-11-28",
     "DisplayName": "سحر يوسف",
     "Created": "2025-02-18",
@@ -210,7 +210,7 @@
   {
     "Id": "17",
     "Email": "wael17@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1998-02-23",
     "DisplayName": "وائل سامي",
     "Created": "2025-01-12",
@@ -223,7 +223,7 @@
   {
     "Id": "18",
     "Email": "rana18@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1999-09-07",
     "DisplayName": "رنا عبدالله",
     "Created": "2025-04-10",
@@ -236,7 +236,7 @@
   {
     "Id": "19",
     "Email": "fahad19@example.com",
-    "Gender": "Male",
+    "Gender": "male",
     "DateOfBirth": "1993-12-30",
     "DisplayName": "فهد يحيى",
     "Created": "2025-03-20",
@@ -249,7 +249,7 @@
   {
     "Id": "20",
     "Email": "maya20@example.com",
-    "Gender": "Female",
+    "Gender": "female",
     "DateOfBirth": "1997-06-16",
     "DisplayName": "مايا ناصر",
     "Created": "2025-02-25",
